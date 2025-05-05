@@ -1,10 +1,10 @@
 'use client'
 import { motion, useTransform, MotionValue, easeIn } from 'framer-motion'
 import Image from 'next/image'
-import HeroNav from './HeroNav'
-import HeroBackground from './HeroBackground'
-import HeroTag from './HeroTag'
-import HeroHeading from './HeroHeading'
+import HeroNav from './components/HeroNav'
+import HeroBackground from './components/HeroBackground'
+import HeroTag from './components/HeroTag'
+import HeroHeading from './components/HeroHeading'
 
 interface HeroContentProps {
     scrollYProgress: MotionValue<number>
